@@ -30,11 +30,9 @@ if st.button("تنبؤ حالة العميل"):
     if payment_col in input_data.columns:
         input_data[payment_col] = 1
 
-    # 4. التنبؤ الفعلي عبر النموذج المحمل
     prediction = model.predict(input_data)[0]
     probability = model.predict_proba(input_data)[0][1]
 
-    # 5. عرض النتيجة على الشاشة
     if prediction == 1:
         st.error(f"⚠️ تحذير: هذا العميل معرض لمغادرة الشركة بنسبة احتمالية: {probability * 100:.2f}%")
     else:
