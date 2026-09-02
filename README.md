@@ -35,7 +35,7 @@ Customer churn is a critical metric for subscription-based businesses. This proj
 ⚙️ Installation & Running Locally
 
 1 . Clone the repository:
-	git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+	git clone https://github.com/MoBa-create/E-Commerce-Customer-Segmentation-Hierarchical.git
 	cd YOUR_REPOSITORY_NAME
 
 2 . Install the required dependencies:
